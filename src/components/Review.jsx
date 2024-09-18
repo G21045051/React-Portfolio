@@ -11,32 +11,32 @@ import ReviewCard from "./ReviewCard";
 
 const reviews = [
   {
-    content: 'Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.',
-    name: 'Sophia Ramirez',
+    content: 'Good web development! Delivered a seamless, responsive site with  great UX.',
+    name: 'Raushan Kumar',
     imgSrc: '/images/people-1.jpg',
     company: 'PixelForge'
   },
   {
-    content: 'Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.',
-    name: 'Ethan Caldwell',
+    content: 'Impressive work! Fast loading times, intuitive design, and flawless backend integration.',
+    name: 'Priyanshu Rawat',
     imgSrc: '/images/people-2.jpg',
     company: 'NexaWave'
   },
   {
     content: 'Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.',
-    name: 'Liam Bennett',
+    name: 'Aryan Patidar',
     imgSrc: '/images/people-3.jpg',
     company: 'CodeCraft'
   },
   {
     content: 'Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.',
-    name: 'Noah Williams',
+    name: 'Arrnab Manhas',
     imgSrc: '/images/people-4.jpg',
     company: 'BrightWeb'
   },
   {
     content: 'Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.',
-    name: 'Ava Thompson',
+    name: 'Aashish Madhukar',
     imgSrc: '/images/people-5.jpg',
     company: 'TechMosaic'
   },
@@ -44,7 +44,7 @@ const reviews = [
     content: 'Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.',
     name: 'Jonathan',
     imgSrc: '/images/people-6.jpg',
-    company: 'Skyline Digital'
+    company: 'Deepanshu soni'
   }
 ];
 
@@ -71,7 +71,7 @@ const Review = () => {
       <div className="container">
 
         <h2 className="headline-2 mb-8 reveal-up">
-          Some ratings provided by others
+            Ratings  
         </h2>
 
         <div className="scrub-slide flex items-stretch gap-3 w-fit">

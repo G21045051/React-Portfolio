@@ -2,21 +2,7 @@
 
 
 const skillItem = [
-  {
-    imgSrc: '/images/figma.svg',
-    label: 'Figma',
-    desc: 'Design tool'
-  },
-  {
-    imgSrc: '/images/css3.svg',
-    label: 'CSS',
-    desc: 'User Interface'
-  },
-  {
-    imgSrc: '/images/javascript.svg',
-    label: 'JavaScript',
-    desc: 'Interaction'
-  },
+   
   {
     imgSrc: '/images/nodejs.svg',
     label: 'NodeJS',
@@ -41,6 +27,16 @@ const skillItem = [
     imgSrc: '/images/tailwindcss.svg',
     label: 'TailwindCSS',
     desc: 'User Interface'
+  },
+  {
+    imgSrc: '/images/css3.svg',
+    label: 'CSS',
+    desc: 'User Interface'
+  },
+  {
+    imgSrc: '/images/javascript.svg',
+    label: 'JavaScript',
+    desc: 'Interaction'
   },
 ];
 

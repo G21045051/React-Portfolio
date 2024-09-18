@@ -63,8 +63,8 @@ const Contact = () => {
 
         </div>
 
-        <form
-          // action="https://getform.io/f/bwngmzya"
+        <form 
+          action="https://getform.io/f/ayvpzlzb"
           method="POST"
           className="xl:pl-10 2xl:pl-20"
         >
@@ -84,7 +84,7 @@ const Contact = () => {
                 id="name"
                 autoComplete="name"
                 required
-                placeholder="Henry Clark"
+                placeholder="Gyanendra Kumar"
                 className="text-field reveal-up"
               />
             </div>
@@ -103,7 +103,7 @@ const Contact = () => {
                 id="email"
                 autoComplete="email"
                 required
-                placeholder="henry@example.com"
+                placeholder="sahil@example.com"
                 className="text-field reveal-up"
               />
             </div>
