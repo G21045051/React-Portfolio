@@ -3,11 +3,7 @@
 @tailwind utilities;
 
 
-
-/* ---------------------------------- *\
- * BASE
-\* ---------------------------------- */
-
+ 
 html {
   scroll-behavior: smooth;
 }
@@ -17,11 +13,7 @@ body {
 }
 
 
-
-/* ---------------------------------- *\
- * TYPOGRAPHY
-\* ---------------------------------- */
-
+ 
 .headline-1,
 .headline-2 {
   @apply max-w-max;
@@ -43,11 +35,7 @@ body {
 }
 
 
-
-/* ---------------------------------- *\
- * UTILITIES
-\* ---------------------------------- */
-
+ 
 .material-symbols-rounded {
   @apply w-[1em] h-[1em] overflow-hidden;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
@@ -74,20 +62,12 @@ body {
 }
 
 
-
-/* ---------------------------------- *\
- * COMPONENTS
-\* ---------------------------------- */
-
-/* Menu btn */
-
+ 
 .menu-btn {
   @apply w-10 h-10 grid place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15 transition-[transform,background-color] active:scale-95
 }
 
-
-/* Navbar */
-
+ 
 .navbar {
   @apply absolute top-full mt-2 right-0 min-w-40 p-2 bg-zinc-50/10 rounded-2xl ring-inset ring-1 ring-zinc-50/5 scale-90 isolate blur-sm opacity-0 invisible transition-[opacity,transform,filter] md:static md:flex md:items-center md:mt-0 md:opacity-100 md:blur-0 md:visible md:scale-100 backdrop-blur-2xl
 }
@@ -107,9 +87,8 @@ body {
 .navbar .active-box {
   @apply absolute bg-zinc-50 rounded-lg -z-10 transition-[top,left] duration-500
 }
+ 
 
-
-/* Button */
 
 .btn {
   @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color]
@@ -135,8 +114,7 @@ body {
   @apply h-11 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800
 }
 
-
-/* Text field */
+ 
 
 .label {
   @apply block text-zinc-200 text-sm font-normal mb-2

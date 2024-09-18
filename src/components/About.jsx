@@ -1,17 +1,11 @@
-/**
- * @copyright 2024 codewithsadee
- * @license Apache-2.0
- */
-
-
 const aboutItems = [
   {
     label: 'Project done',
-    number: 45
+    number: 10
   },
   {
     label: 'Years of experience',
-    number: 10
+    number: 2
   }
 ];
 
@@ -26,7 +20,7 @@ const About = () => {
 
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            Welcome! I&apos;m Henry, a professional web developer with a knack for crafting visually stunning and highly functional websites. Combining creativity and technical expertise. I transform your vision into digital masterpiece that excels in both appearance and performance.
+             Welcome! I’m Gyanendra Kumar, currently pursuing Chemical Engineering at IIT BHU. I completed my internship at Glow Tech Mor, where I worked on various projects, honing my technical expertise. With a passion for problem-solving and development, I’m driven to transform innovative ideas into impactful solutions.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 md:gap-7">

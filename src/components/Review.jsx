@@ -1,26 +1,11 @@
-/**
- * @copyright 2024 codewithsadee
- * @license Apache-2.0
- */
-
-
-/**
- * Node modules
- */
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
 
-
-/**
- * Register gsap plugins
- */
+ 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
-
-/**
- * Components
- */
+ 
 import ReviewCard from "./ReviewCard";
 
 
@@ -86,7 +71,7 @@ const Review = () => {
       <div className="container">
 
         <h2 className="headline-2 mb-8 reveal-up">
-          What our customers say
+          Some ratings provided by others
         </h2>
 
         <div className="scrub-slide flex items-stretch gap-3 w-fit">

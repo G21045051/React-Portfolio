@@ -1,13 +1,4 @@
-/**
- * @copyright 2024 codewithsadee
- * @license Apache-2.0
- */
-
-
-/**
- * Components
- */
-import SkillCard from "./SkillCard";
+ import SkillCard from "./SkillCard";
 
 
 const skillItem = [
@@ -64,7 +55,7 @@ const Skill = () => {
         </h2>
 
         <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] reveal-up">
-          Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.
+          Discover the powerful tools and technologies I use to create websites & applications.
         </p>
 
         <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
