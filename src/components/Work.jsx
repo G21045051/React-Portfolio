@@ -24,7 +24,7 @@ const works = [
     imgSrc: '/images/project-4.jpg',
     title: 'React Portfolio',
     tags: ['Frontend','React', 'Development'],
-    projectLink: 'https://github.com/codewithsadee-org/wealthome'
+    projectLink: 'https://react-portfolio-app-n99i.onrender.com'
   },
    
 ];
