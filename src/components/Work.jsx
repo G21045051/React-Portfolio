@@ -12,7 +12,7 @@ const works = [
     imgSrc: '/images/project-2.jpg',
     title: 'Fullstack Journey-Logbook',
     tags: ['API', 'Multer','Development'],
-    projectLink: 'https://journey-logbook-frontend.onrender.com'
+    projectLink: 'https://frontend-journey-logbook.onrender.com'
   },
   {
     imgSrc: '/images/project-3.jpg',
